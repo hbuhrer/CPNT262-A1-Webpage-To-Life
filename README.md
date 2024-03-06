@@ -44,11 +44,11 @@ SafeCSS is a secure CSS framework that prioritizes cyber security in web develop
 
 ## Bugs and Issues
 
-- Bug Edit (Mar 6, 2024): My js script for removing hover on touch devices is not working on some mobile browsers (Safari), and there is a good solution to be implemented here: 
+- Bug Edit (Mar 6, 2024): My js script for removing hover on touch devices is not working on some mobile browsers (Safari), and there is a good solution to be implemented here:
+    - https://stackoverflow.com/questions/23885255/how-to-remove-ignore-hover-css-style-on-touch-devices
 
-https://stackoverflow.com/questions/23885255/how-to-remove-ignore-hover-css-style-on-touch-devices 
-
-Will implement the detect touch via JS and prepend CSS :hover rules using a class like body.hasHover when possible to fix this issue the right way. - HB
+      Will implement the detect touch via JS and prepend CSS :hover rules using a class like body.hasHover when possible to fix
+      this issue the right way. - HB
 
 Nothing significant other than a missed draw call from v1 of the matrix js effect that was making it reload like crazy when scrolling on mobile, removing that mitigated the issue, but will still get a reload when the animation hits the top of a mobile device. This is an open issue that will be fixed before production. I also had to add:
 
