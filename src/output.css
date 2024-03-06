@@ -579,13 +579,13 @@ video {
 }
 
 body::-moz-selection {
-  background-color:transparent;
-  color:hsl(240, 100%, 50%);
+  background-color: transparent;
+  color: hsl(240, 100%, 50%);
 }
 
 body::selection {
-  background-color:transparent;
-  color:hsl(240, 100%, 50%);
+  background-color: transparent;
+  color: hsl(240, 100%, 50%);
 }
 
 .checkbox {
@@ -617,7 +617,7 @@ body::selection {
   transition: transform 0.2s linear;
 }
 
-.checkbox:checked+.checkbox-toggle .ball {
+.checkbox:checked + .checkbox-toggle .ball {
   transform: translateX(21px);
 }
 
