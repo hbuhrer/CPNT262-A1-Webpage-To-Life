@@ -96,8 +96,6 @@ function openNav() {
       draw();
   });
   
-  draw();
-  
   setInterval(draw, 30);
   
 
@@ -130,4 +128,14 @@ cards.forEach(card => {
       </div>
   `;
   cardContainer.innerHTML += cardHtml;
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });
