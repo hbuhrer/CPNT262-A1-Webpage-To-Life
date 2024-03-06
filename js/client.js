@@ -103,17 +103,17 @@ function openNav() {
 
 const cards = [
   {
-      image: '../assets/images/tailwindcss.svg',
+      image: './assets/images/tailwindcss.svg',
       title: 'Built on Tailwind CSS',
       description: 'SafeCSS retains the simplicity and ease of use of Tailwind CSS, making it familiar to developers who are already familiar with the framework.'
   },
   {
-      image: '../assets/images/security.svg',
+      image: './assets/images/security.svg',
       title: 'Regular Security Audits',
       description: 'Our team conducts regular security audits to identify and address any vulnerabilities in the SafeCSS codebase.'
   },
   {
-      image: '../assets/images/fix.svg',
+      image: './assets/images/fix.svg',
       title: 'Custom Security Fixes',
       description: 'In cases where third-party dependencies are abandoned or insecure, the SafeCSS team rewrites the code from scratch, following the latest security best practices.'
   }
