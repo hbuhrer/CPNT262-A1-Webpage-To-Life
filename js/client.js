@@ -139,3 +139,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    if ('ontouchstart' in document.documentElement) {
+      document.body.classList.add('touch-device');
+    }
+  });
+  
